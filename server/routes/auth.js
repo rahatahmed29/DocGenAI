@@ -1,6 +1,6 @@
-import AuthCtrl from "../controllers/AuthCtrl";
+import AuthCtrl from "../controllers/AuthCtrl.js";
 import express from"express"
-const router=express.Router()
-router.post('/register',AuthCtrl.register)
-router.post('/login',AuthCtrl.login)
-export default router
+const authRouter=express.Router()
+authRouter.post('/register',AuthCtrl.register)
+authRouter.post('/login',AuthCtrl.login)
+export default authRouter

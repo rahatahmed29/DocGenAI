@@ -1,0 +1,20 @@
+{
+  "name": "docgen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahatahmed29/DocGenAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahatahmed29/DocGenAI/issues"
+  },
+  "homepage": "https://github.com/rahatahmed29/DocGenAI#readme",
+  "description": ""
+}
